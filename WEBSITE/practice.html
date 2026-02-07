@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <heed>
+        <title>Html Practice For Web App</title>
+
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0%;
+            }
+            header, footer
+            {
+                background-color: #222;
+                color: white;
+                padding :15px;
+                text-align: center;
+            }
+            nav a{
+                color: white;
+                margin: 0px;
+                text-decoration: none;
+            }
+            .container{
+                padding: 20px;
+            }
+            .card {
+                border: 1px solid #ccc;
+                padding : 15px;
+                margin-bottom: 15px;
+                border-radius: 6px;
+            }
+
+            input,select,textarea,button{
+                width: 100%;
+                padding: 8px;
+                margin-top: 6px;
+            }
+            button
+            {
+                background-color: #007bff;
+                color:white;
+                border:none;
+                cursor: pointer;
+            }
+            button:hover
+            {
+                background-color: #0056b3;
+            }
+        </style>
+    </heed>
+    <body>
+        <header>
+            <h1>My Web App</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+
+        <div class="container">
+            <div>
+                <h2>Text & Formating</h2>
+                <p>This is a <strong>web application</strong> Practice</p>
+                <p><em>Html+Css</em> is learning 🚀</p>
+                <p><mark>Important text highlight</mark></p>
+            </div>
+
+            <div>
+                <h2>List ( User in menus , dashboards)</h2>
+                <ul>
+                    <li>Dashboard</li>
+                    <li>User Profile</li>
+                    <li>Settings</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Image</h2>
+                <img src="images/lyrics.jpg"
+                     alt="sample image"
+                     height="300">
+            </div>
+
+            <div class="card">
+                <h2>User Registration Form</h2>
+                <form>
+                    <label>UserName</label>
+                    <input type="text" placeholder="Enter userName">
+
+                    <label>Email</label>
+                    <input type="email" placeholder="Enter Email">
+
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter password">
+
+                    <labeL>Role</labeL>
+                    <select>
+                        <option></option>
+                        <option>User</option>
+                        <option>Admin</option>
+                    </select>
+
+                    <label>About You</label>
+                    <textarea row="3"></textarea>
+
+                    <button type="submit">Register</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>User Table</h2>
+            <table border="1" width="100%">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Role</th>
+                </tr>
+                 <tr>
+                    <td>1</td>
+                    <td>Fahad</td>
+                    <td>Admin</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>User A</td>
+                    <td>User</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2>Video</h2>
+            <video controls autoplay width="100%">
+                <source src="videos/video.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <footer>
+            <p>© 2026 My Web App</p>
+        </footer>
+
+    </body>
+</html>
