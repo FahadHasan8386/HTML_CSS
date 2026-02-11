@@ -1,0 +1,63 @@
+:root {
+            --bg-color: #ffffff;
+            --text-color: #333;
+            --primary-color: #3498db;
+        }
+
+        .dark-theme {
+            background-color: #222;
+            color: white;
+        }
+        .dark-theme table {
+            border-color: #555;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            transition: 0.4s;
+            padding: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+            background: rgba(128, 128, 128, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th, td { padding: 15px; border: 1px solid #ddd; }
+
+        .highlight {
+            color: var(--primary-color);
+            transform: scale(1.05);
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        .controls {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .input-group {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        input {
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Interactive Portfolio</title>  
+        <link rel="stylesheet" href="style.css">     
+    </head>
+
+    <body>
+        <div class="controls">
+            <button id="themeBtn">Switch to Dark Mode</button>
+        </div>
+
+    <h1 align="center">Personal Information</h1>
+
+    <table border="1" width="80%" align="center">
+            <tr>
+                <td>
+                    <h2>Fahad Hasan</h2>
+                    <p>Email : <span id="emailText">fahad@outlook.com</span></p>
+                    <p>Address : Dhaka Bangladesh</p>
+                    <p>Github : <a href="https://github.com/FahadHasan8386" target="_blank" style="color: var(--primary-color);">FahadHasan8386</a></p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h3>Skills</h3>
+                    <ul id="skillList">
+                        <li>HTML</li>
+                        <li>Basic JavaScript</li>
+                        <li>c, c++ ,c#</li>
+                        <li>ASP .NET Core</li>
+                        <li>Compitative Programming</li>
+                    </ul>
+                </td>
+            </tr>
+                <td  colspan="2">
+                    <h3>Hobbies List</h3>
+                    <ol id="hobbyList">
+                        <li>Coding</li>
+                        <li>Problem Solving</li>
+                    </ol>
+
+                    <div class="input-group">
+                        <input type="text" id="hobbyInput" placeholder="Add a new Hobby...">
+                        <button id="addHobbyBtn">Add Hobby</button>
+                    </div>
+
+                </td>
+            <tr>
+
+            </tr>
+
+        </table>
+        <script src="script.js"></script>
+    </body>
+</html>
