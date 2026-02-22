@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Inventory Management System
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <h2>Inventory</h2>
+                <ul>
+                    <li class="active">Dashboard</li>
+                    <li>Products</li>
+                    <li>Orders</li>
+                    <li>Customers</li>
+                </ul>
+            </aside>
+
+            <!-- Main Content -->
+             <main class="main">
+
+            <header>
+                <h1>Product List</h1>
+                <button class="btn">+ Add Product</button>
+            </header>
+
+            <!-- Table -->
+        <section class="table-section">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Category</th>
+                        <th>Stock</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>101</td>
+                        <td>Keyboard</td>
+                        <td>Electronics</td>
+                        <td>25</td>
+                        <td><span class="status in">In Stock</span></td>
+                    </tr>
+                    <tr>
+                        <td>102</td>
+                        <td>Mouse</td>
+                        <td>Electronics</td>
+                        <td>5</td>
+                        <td><span class="status low">Low</span></td>
+                    </tr>
+                    <tr>
+                        <td>103</td>
+                        <td>Chair</td>
+                        <td>Furniture</td>
+                        <td>0</td>
+                        <td><span class="status out">Out</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Form -->
+        <section class="form-section">
+            <h2>Add Product</h2>
+            <form>
+                <input type="text" placeholder="Product Name">
+                <input type="text" placeholder="Category">
+                <input type="number" placeholder="Stock">
+                <button type="submit">Save</button>
+            </form>
+        </section>
+
+
+        </div>
+
+    </body>
+</html>
